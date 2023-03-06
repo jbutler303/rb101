@@ -3,7 +3,7 @@ def prompt(message)
 end
 
 def number_abso(number)
-  if number%2 != 0
+  if number % 2 != 0
     prompt("Your number #{number} is odd!!")
   else
     prompt("Your number #{number} is even!!")
